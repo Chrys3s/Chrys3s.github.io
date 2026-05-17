@@ -43,7 +43,7 @@ export default function Contact() {
           </div>
           <div className="mt-4 h-[600px] border border-[#00ff00]/20 bg-white/5 rounded overflow-hidden">
             <iframe 
-              src={`${resumePdf}#view=FitH`}
+              src={`${resumePdf}#zoom=100`}
               className="w-full h-full"
               title="Resume PDF"
             />

@@ -10,7 +10,7 @@ export function TerminalSection({ title, command, children }: TerminalSectionPro
   return (
     <div className="mb-8">
       <div className="text-[#00ff00] mb-2">
-        <span className="text-[#00ff00]/60">root@cybersec:~$</span> {command}
+        <span className="text-[#00ff00]/60">root@Harut0:~$</span> {command}
       </div>
       <div className="border border-[#00ff00]/30 bg-black/50 p-4 rounded">
         <div className="text-[#00ff00] mb-3 flex items-center gap-2">

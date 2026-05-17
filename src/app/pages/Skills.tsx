@@ -27,7 +27,8 @@ export default function Skills() {
           <div className="flex flex-wrap gap-2">
             {['Wireshark', 'Metasploit', 'Burpsuite', 'Autopsy', 'Python',
               'JavaScript', 'GCP', 'AWS', 'ReactJS', 'Flask', 'TensorFlow',
-              'Streamlit'].map((tool) => (
+              'Streamlit', 'Netcat', 'Nikto', 'John the Ripper', 'Hydra',
+              'Nmap', 'Sqlmap', 'Kali Linux', 'Zap', 'Nessus'].map((tool) => (
               <span key={tool} className="border border-[#00ff00]/50 px-3 py-1 text-sm">
                 {tool}
               </span>
@@ -38,10 +39,11 @@ export default function Skills() {
         <div className="mt-6">
           <div className="text-sm mb-3 text-[#00ff00]/70">// AREAS OF INTEREST</div>
           <div className="grid grid-cols-2 gap-3 text-sm">
-            <div className="border-l-2 border-[#00ff00]/50 pl-3">Red Teaming</div>
-            <div className="border-l-2 border-[#00ff00]/50 pl-3">Blue Teaming</div>
-            <div className="border-l-2 border-[#00ff00]/50 pl-3">Cloud Security</div>
-            <div className="border-l-2 border-[#00ff00]/50 pl-3">Digital Forensics</div>
+            <div className="border-l-2 border-[#00ff00]/50 pl-3">VAPT</div>
+            <div className="border-l-2 border-[#00ff00]/50 pl-3">Web App Security Analyst</div>
+            <div className="border-l-2 border-[#00ff00]/50 pl-3">Cloud Security Analyst</div>
+            <div className="border-l-2 border-[#00ff00]/50 pl-3">SOC Analyst</div>
+            <div className="border-l-2 border-[#00ff00]/50 pl-3">Network Security Analyst</div>
           </div>
         </div>
       </TerminalSection>
