@@ -22,9 +22,7 @@ export default function About() {
           <div>
             <span className="text-[#00ff00]/60">Specialization:</span> Cyber Security & Forensics
           </div>
-          <div>
-            <span className="text-[#00ff00]/60">Phone:</span> +91 8890626388
-          </div>
+
         </div>
 
         <div className="mt-6">

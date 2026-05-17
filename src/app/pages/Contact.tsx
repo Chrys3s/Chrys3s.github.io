@@ -19,12 +19,7 @@ export default function Contact() {
               asmitsharma674@gmail.com
             </a>
           </div>
-          <div className="flex items-center gap-3">
-            <span className="text-[#00ff00]/60 w-32">Phone:</span>
-            <a href="tel:+918890626388" className="hover:text-[#00ff00] hover:underline">
-              +91 8890626388
-            </a>
-          </div>
+
         </div>
 
         <div className="mt-6 p-4 border border-[#00ff00]/30 bg-black/50">
