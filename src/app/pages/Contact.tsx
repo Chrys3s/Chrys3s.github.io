@@ -1,4 +1,5 @@
 import { TerminalSection } from '../components/TerminalSection';
+import resumePdf from '../../imports/Asmit_CV.pdf';
 
 export default function Contact() {
   return (
@@ -34,21 +35,22 @@ export default function Contact() {
         </div>
 
         <div className="mt-6 p-4 border border-[#00ff00]/30 bg-black/50">
-          <div className="text-xs text-[#00ff00]/70 mb-2">
-            # WORK EXPERIENCE
+          <div className="text-xs text-[#00ff00]/70 mb-2 flex justify-between items-center">
+            <span># RESUME.pdf</span>
+            <a href={resumePdf} target="_blank" rel="noopener noreferrer" className="text-[#00ff00]/60 hover:text-[#00ff00] hover:underline flex items-center gap-1 transition-colors">
+              [Download]
+            </a>
           </div>
-          <div className="text-sm">
-            <div className="mb-2">
-              <span className="text-[#00ff00]">Intern - Pheme Software Pvt. Ltd.</span>
-              <span className="text-[#00ff00]/60 text-xs ml-2">(Jun 2021 - Aug 2021)</span>
-            </div>
-            <ul className="list-disc list-inside space-y-1 text-[#00ff00]/80">
-              <li>Handled security aspects of web applications including user authentication and IAM</li>
-              <li>Created APIs using Flask framework</li>
-              <li>Developed web interfaces using ReactJS</li>
-            </ul>
+          <div className="mt-4 h-[600px] border border-[#00ff00]/20 bg-white/5 rounded overflow-hidden">
+            <iframe 
+              src={`${resumePdf}#view=FitH`}
+              className="w-full h-full"
+              title="Resume PDF"
+            />
           </div>
         </div>
+
+
       </TerminalSection>
     </div>
   );

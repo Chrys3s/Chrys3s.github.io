@@ -8,16 +8,17 @@ export default function About() {
           {'>'} ASMIT SHARMA - CYBER SECURITY ENGINEER
         </div>
         <p className="mb-4 leading-relaxed">
-          Security enthusiast, philomath, and learner. I believe in becoming an asset to the
-          technical world by enhancing security for its more widespread use or, at the very least,
-          proper implementation and research.
+          Cyber Security | Cloud Security | Network Security | VAPT | Penetration Tester | Web Application Analyst
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
           <div>
             <span className="text-[#00ff00]/60">Location:</span> Ajmer, India
           </div>
           <div>
-            <span className="text-[#00ff00]/60">Email:</span> asmitsharma674@gmail.com
+            <span className="text-[#00ff00]/60">Email:</span>{' '}
+            <a href="mailto:asmitsharma674@gmail.com" className="hover:text-[#00ff00] hover:underline">
+              asmitsharma674@gmail.com
+            </a>
           </div>
           <div>
             <span className="text-[#00ff00]/60">Specialization:</span> Cyber Security & Forensics
@@ -31,11 +32,27 @@ export default function About() {
             <div className="border-l-2 border-[#00ff00]/50 pl-4">
               <div className="text-lg">M.Sc., Newcastle University</div>
               <div className="text-sm text-[#00ff00]/60">Newcastle upon Tyne | Sep 2022 - Sep 2023</div>
+              <div className="text-sm text-[#00ff00]/60">Major - Cyber Security</div>
             </div>
             <div className="border-l-2 border-[#00ff00]/50 pl-4">
               <div className="text-lg">B. Tech., University of Petroleum and Energy Studies</div>
               <div className="text-sm text-[#00ff00]/60">Dehradun | Aug 2018 - May 2022</div>
               <div className="text-sm text-[#00ff00]/60">Graduated with Honors - Cyber Security & Forensics</div>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-6 pt-6 border-t border-[#00ff00]/30">
+          <div className="text-sm mb-3 text-[#00ff00]/70">// WORK EXPERIENCE</div>
+          <div className="space-y-3">
+            <div className="border-l-2 border-[#00ff00]/50 pl-4">
+              <div className="text-lg">Intern - Pheme Software Pvt. Ltd.</div>
+              <div className="text-sm text-[#00ff00]/60">Jun 2021 - Aug 2021</div>
+              <ul className="list-disc list-inside mt-2 space-y-1 text-sm text-[#00ff00]/80">
+                <li>Handled security aspects of web applications including user authentication and IAM</li>
+                <li>Created APIs using Flask framework</li>
+                <li>Developed web interfaces using ReactJS</li>
+              </ul>
             </div>
           </div>
         </div>
