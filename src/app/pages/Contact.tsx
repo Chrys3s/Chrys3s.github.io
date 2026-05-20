@@ -1,5 +1,5 @@
 import { TerminalSection } from '../components/TerminalSection';
-import resumePdf from '../../imports/Asmit_CV.pdf';
+import resumePdf from '../../imports/Asmit_Resume.pdf';
 
 export default function Contact() {
   return (
